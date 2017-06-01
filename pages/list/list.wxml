@@ -1,0 +1,47 @@
+<block wx:if="{{isNoDATA}}">
+  <view class="tip">
+    <text>尚无记录</text>
+  </view>
+</block>
+<block wx:else>
+  <view class="search-bar">
+    <view class="search-bar-input-container">
+      <icon type="search" size="19" color="#eee" />
+      <input bindconfirm="searchBarInputConfirm" bindinput="queryInput" value="{{query}}" class="search-bar-input" placeholder="过滤条件" confirm-type="search"/>
+    </view>
+    <view class="searchBarCancelButton" bindtap="cancelSearch">
+      <text>取消</text>
+    </view>
+  </view>
+
+  <block wx:if="{{DATAs.length > 0}}">
+    <view class="list-container">
+      <view wx:for="{{DATAs}}" wx:key="id" id="{{item.id}}" bindtap="ontap" bindlongtap="onlongtap" class="list-item">
+
+        <view class="content">
+          <view class="content-up">
+            <text class="password">{{item.password}}</text>
+          </view>
+          <view class="content-down">
+            <text class="tag">{{item.tag}}</text>
+            <text class="username">{{item.username}}</text>
+          </view>
+        </view>
+
+        <view wx:if="{{item.isCheckTimeout}}" class="icon">
+          <image wx:if="{{item.isTimeout}}" mode="aspectFit" src="../../img/unsafe.png"></image>
+          <image wx:if="{{!item.isTimeout}}" mode="aspectFit" src="../../img/safe.png"></image>
+        </view>
+
+      </view>
+    </view>
+  </block>
+
+  <block wx:else>
+    <view class="tip">
+      <text>无结果</text>
+    </view>
+  </block>
+
+
+</block>

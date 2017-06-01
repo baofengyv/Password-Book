@@ -1,0 +1,52 @@
+<view class="list-container">
+  <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+
+  <view bindtap="show_export" class="list-item">
+    <view class="content">
+      <text>导出</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+</view>
+
+<view class="list-container">
+  <view bindtap="show_manual" class="list-item">
+    <view class="content">
+      <text>使用手册</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+</view>
+
+<view class="list-container">
+  <view bindtap="show_about" class="list-item">
+    <view class="content">
+      <text>关于</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+</view>
+
+<view class="list-container">
+  <view bindtap="show_donate" class="list-item">
+    <view class="content">
+      <text>捐赠</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+</view>

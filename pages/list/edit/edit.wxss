@@ -1,0 +1,91 @@
+/* pages/add/add.wxss */
+
+page {
+  background-color: #0d0d0d;
+  height: 100%;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  /*临时使用*/
+  color: #eee;
+}
+
+.list-container {
+  margin: 71rpx 0;
+}
+
+.list-item {
+  height: 77rpx;
+  padding-left: 7rpx;
+  display: flex;
+  align-items: center;
+}
+
+.list-item-input {
+  height: 77rpx;
+  line-height: 77rpx;
+  flex: 1;
+}
+
+.list-item-lable {
+  height: 77rpx;
+  line-height: 77rpx;
+  flex: 1;
+}
+
+.list-item-switch {
+  flex: 0 0 131rpx;
+}
+
+.clearWrapper {
+  flex: 0 0 61rpx;
+  display: flex;
+  align-items: center;
+}
+
+.generCondition {
+  height: 301rpx;
+  align-items: initial;
+}
+
+.conditonWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.conditon-switch {
+  flex: 1;
+  min-width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.conditon-switch text {
+  padding-left: 29rpx;
+  min-width: 171rpx;
+}
+
+.condition-picker {
+  flex: 2;
+  min-width: 80%;
+}
+
+.condition-picker text {
+  padding-left: 29rpx;
+}
+
+.outtimePicker text {
+  padding-left: 29rpx;
+}
+
+.outtimePicker picker {
+  width: 100%;
+}
+
+
+.buttonContainer{
+    margin:99rpx;
+}
+
+.buttonContainer.lastone{
+    padding-bottom: 99rpx;
+}

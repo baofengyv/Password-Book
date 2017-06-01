@@ -1,0 +1,6 @@
+<view class="info">
+  <text>1. 点击密码条目会复制到剪贴板</text>
+</view>
+<view class="info">
+  <text>2. 长按可以编辑</text>
+</view>

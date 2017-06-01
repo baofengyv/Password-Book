@@ -1,0 +1,21 @@
+page {
+  background-color: #0d0d0d;
+  height: 100%;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  /*临时使用*/
+  color: #eee;
+}
+
+
+.tip {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.tip text {
+  font-size: 32rpx;
+  font-style: bold;
+  width: 100%;
+  text-align: center;
+}
