@@ -2,24 +2,24 @@
 
 <view class="list-container">
   <view class="list-item">
-    <input bindinput="tagInput" class="list-item-input" placeholder="标签" value="{{tag}}"/>
+    <input bindinput="tagInput" class="list-item-input tag" placeholder="标签" value="{{tag}}"/>
     <view class="clearWrapper">
-      <icon type="clear" size="17" color="#454545" bindtap="clearTag"></icon>
+      <icon type="clear" size="23" color="#454545" bindtap="clearTag"></icon>
     </view>
   </view>
   <view class="list-item">
-    <input bindinput="usernameInput" class="list-item-input" placeholder="账号" value="{{username}}" />
+    <input bindinput="usernameInput" class="list-item-input username" placeholder="账号" value="{{username}}" />
     <view class="clearWrapper">
-      <icon bindtap="clearUsername" type="clear" size="17" color="#454545"></icon>
+      <icon bindtap="clearUsername" type="clear" size="23" color="#454545"></icon>
     </view>
   </view>
 </view>
 
 <view class="list-container">
   <view class="list-item">
-    <input bindinput="passwordInput" class="list-item-input" placeholder="密码" value="{{password}}" />
+    <input bindinput="passwordInput" class="list-item-input password" placeholder="密码" value="{{password}}" />
     <view class="clearWrapper">
-      <icon bindtap="clearPassword" type="clear" size="17" color="#454545"></icon>
+      <icon bindtap="clearPassword" type="clear" size="23" color="#454545"></icon>
     </view>
   </view>
 </view>
@@ -57,7 +57,8 @@
       <view class="condition-picker">
         <picker bindchange="passwordSizeChange" value="{{autoGenerate_size_index}}" range="{{autoGenerate_range}}">
           <view>
-            <text>密码位数:</text>{{autoGenerate_range[autoGenerate_size_index]}}
+            <text>密码位数:</text>
+            <text class="selectedOptionText">{{autoGenerate_range[autoGenerate_size_index]}}</text>
           </view>
         </picker>
       </view>
@@ -75,7 +76,8 @@
 
   <view wx:if="{{isCheckTimeout}}" class="list-item outtimePicker">
     <picker mode="date" start="2017-01-01" bindchange="timeoutDateChange">
-      <text>保质期至:</text>{{timeoutDate}}
+      <text>保质期至:</text>
+      <text class="selectedOptionText">{{timeoutDate}}</text>
     </picker>
   </view>
 

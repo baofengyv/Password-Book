@@ -66,7 +66,13 @@ Page({
 
             // 如果过滤条件非空 则应用过滤条件
             var query = this.data.query
-            if (query && (d.tag.indexOf(query) < 0 && d.username.indexOf(query) < 0)) {
+            if (
+                query && (
+                    d.tag.toLowerCase().indexOf(query.toLowerCase()) < 0
+                      &&
+                    d.username.toLowerCase().indexOf(query.toLowerCase()) < 0
+                )
+            ) {
 
                 // 根据传来的条件进行过滤
                 // 不符合的跳过

@@ -4,8 +4,7 @@ page {
   background-color: #0d0d0d;
   height: 100%;
   font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
-  /*临时使用*/
-  color: #eee;
+  color: #e0e0e0;
 }
 
 .list-container {
@@ -13,9 +12,8 @@ page {
 }
 
 .list-item {
-  height: 77rpx;
+  height: 107rpx;
   padding-left: 7rpx;
-  display: flex;
   align-items: center;
 }
 
@@ -23,6 +21,24 @@ page {
   height: 77rpx;
   line-height: 77rpx;
   flex: 1;
+  font-size: 51rpx;
+}
+
+.list-item-input.tag {
+  color: #009688;
+}
+
+.list-item-input.username {
+  color: #ff9800;
+}
+
+.list-item-input.password {
+  color: #e91e63;
+}
+
+.selectedOptionText {
+  color: #ff9800;
+  font-size: 47rpx;
 }
 
 .list-item-lable {
@@ -36,7 +52,7 @@ page {
 }
 
 .clearWrapper {
-  flex: 0 0 61rpx;
+  flex: 0 0 81rpx;
   display: flex;
   align-items: center;
 }
@@ -81,11 +97,10 @@ page {
   width: 100%;
 }
 
-
-.buttonContainer{
-    margin:99rpx;
+.buttonContainer {
+  margin: 99rpx;
 }
 
-.buttonContainer.lastone{
-    padding-bottom: 99rpx;
+.buttonContainer.lastone {
+  padding-bottom: 99rpx;
 }

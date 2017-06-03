@@ -5,7 +5,7 @@ page {
   height: 100%;
   font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
   /*临时使用*/
-  color: #eee;
+  color: #e0e0e0;
 }
 
 .list-container {
@@ -13,21 +13,36 @@ page {
 }
 
 .list-item {
-  height: 77rpx;
+  height: 107rpx;
   padding-left: 7rpx;
-  display: flex;
   align-items: center;
 }
 
 .list-item-input {
-  height: 77rpx;
-  line-height: 77rpx;
+  height: 107rpx;
+  line-height: 107rpx;
+  font-size: 51rpx;
   flex: 1;
 }
 
+.list-item-input.tag {
+  color: #009688;
+}
+
+.list-item-input.username {
+  color: #ff9800;
+}
+
+.list-item-input.password {
+  color: #e91e63;
+}
+
+.selectedOptionText {
+  color: #ff9800;
+  font-size: 47rpx;
+}
+
 .list-item-lable {
-  height: 77rpx;
-  line-height: 77rpx;
   flex: 1;
 }
 
@@ -36,7 +51,7 @@ page {
 }
 
 .clearWrapper {
-  flex: 0 0 61rpx;
+  flex: 0 0 81rpx;
   display: flex;
   align-items: center;
 }
@@ -78,11 +93,10 @@ page {
 }
 
 .outtimePicker picker {
-  width: 100%;
+  flex: 1;
 }
 
-
-.saveButtonContainer{
-    margin:171rpx;
-    padding: 0 0 200rpx 0;
+.saveButtonContainer {
+  margin: 171rpx;
+  padding: 0 0 200rpx 0;
 }

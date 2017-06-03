@@ -28,7 +28,7 @@ page {
 }
 
 .tag {
-  color: #8e8e93;
+  color: #F44336;
   margin: 0 19rpx;
   min-width: 91rpx;
   display: inline-block;
