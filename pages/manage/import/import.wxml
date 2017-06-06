@@ -1,3 +1,11 @@
-<view class="tip">
-    <text>暂不支持</text>
+<view class="textContainer">
+  <text>请将现有数据导出，做好备份!!</text>
+</view>
+<view class="textContainer">
+  <text>导入后现有数据将被完全覆盖!!!</text>
+</view>
+
+
+<view class="buttonContainer">
+  <button type="warn" bindtap="importData"> 从剪贴板导入数据 </button>
 </view>

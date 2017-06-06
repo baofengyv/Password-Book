@@ -6,17 +6,12 @@ page {
   color: #eee;
 }
 
-
-.tip {
-  height: 100%;
-  display: flex;
-  align-items: center;
+.buttonContainer {
+  margin: 90rpx;
 }
 
-.tip text {
-  color: #666;
-  font-size: 57rpx;
-  font-style: bold;
-  width: 100%;
+.textContainer {
   text-align: center;
+  padding:47rpx 0 13rpx;
+  color: #FF5722;
 }
