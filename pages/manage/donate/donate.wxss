@@ -11,12 +11,10 @@ page {
   height: 100%;
   display: flex;
   align-items: center;
+  padding: 37rpx;
 }
 
-.tip text {
-  color: #666;
-  font-size: 57rpx;
-  font-style: bold;
-  width: 100%;
-  text-align: center;
+.tip image {
+    height: 100%;
+    width: 100%;
 }
