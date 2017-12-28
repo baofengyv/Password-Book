@@ -45,7 +45,7 @@
 <view class="list-container">
   <view bindtap="show_donate" class="list-item">
     <view class="content">
-      <text>捐赠</text>
+      <text>赞赏</text>
     </view>
     <view class="icon">
       <image mode="aspectFit" src="../../img/chevron_right.png"></image>
