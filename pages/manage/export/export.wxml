@@ -1,3 +1,0 @@
-<view class="buttonContainer">
-  <button type="primary" bindtap="exportData"> 复制数据到剪贴板中 </button>
-</view>
