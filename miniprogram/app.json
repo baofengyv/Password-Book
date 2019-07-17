@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/list/edit/edit",
+    "pages/add/add",
+    "pages/manage/manage",
+    "pages/manage/backup/backup",
+    "pages/manage/export/export",
+    "pages/manage/import/import",
+    "pages/manage/manual/manual",
+    "pages/manage/about/about",
+    "pages/manage/donate/donate"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#0d0d0d",
+    "navigationBarBackgroundColor": "#181818",
+    "navigationBarTitleText": "密码本",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#1b1b1b",
+    "borderStyle": "white",
+    "color": "#7b7b7b",
+    "selectedColor": "#ff9500",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "列表",
+        "iconPath": "img/list_un.png",
+        "selectedIconPath": "img/list.png"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "text": "添加",
+        "iconPath": "img/add_un.png",
+        "selectedIconPath": "img/add.png"
+      },
+      {
+        "text": "管理",
+        "pagePath": "pages/manage/manage",
+        "iconPath": "img/settings_un.png",
+        "selectedIconPath": "img/settings.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

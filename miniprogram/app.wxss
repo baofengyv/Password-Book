@@ -1,0 +1,19 @@
+/*
+* 自定义list
+*/
+
+.list-container {
+  background-color: #171717;
+  border-top: solid 1rpx #333;
+  border-bottom: solid 1rpx #333;
+}
+
+.list-item {
+  border-bottom: solid 1rpx #333;
+  margin-left: 31rpx;
+  display: flex;
+}
+
+.list-item:last-child {
+  border-bottom: none;
+}

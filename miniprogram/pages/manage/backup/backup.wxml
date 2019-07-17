@@ -1,0 +1,149 @@
+<view class="buttonContainer">
+  <button type="primary" bindtap="backUp2Cloud"> 备份到云端 </button>
+</view>
+
+<view class="list-container">
+
+  <view bindtap="show_export" class="list-item">
+    <view class="content">
+      <text>导出</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+
+  <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+
+    <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+    <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+    <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+  
+  <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+
+    <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+
+    <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+    <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+    <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+    <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+    <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+    <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+    <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+    <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+    <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+    <view bindtap="show_import" class="list-item">
+    <view class="content">
+      <text>导入</text>
+    </view>
+    <view class="icon">
+      <image mode="aspectFit" src="../../img/chevron_right.png"></image>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,106 @@
+/* pages/add/add.wxss */
+
+page {
+  background-color: #0d0d0d;
+  height: 100%;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  color: #e0e0e0;
+}
+
+.list-container {
+  margin: 71rpx 0;
+}
+
+.list-item {
+  height: 107rpx;
+  padding-left: 7rpx;
+  align-items: center;
+}
+
+.list-item-input {
+  height: 77rpx;
+  line-height: 77rpx;
+  flex: 1;
+  font-size: 51rpx;
+}
+
+.list-item-input.tag {
+  color: #009688;
+}
+
+.list-item-input.username {
+  color: #ff9800;
+}
+
+.list-item-input.password {
+  color: #e91e63;
+}
+
+.selectedOptionText {
+  color: #ff9800;
+  font-size: 47rpx;
+}
+
+.list-item-lable {
+  height: 77rpx;
+  line-height: 77rpx;
+  flex: 1;
+}
+
+.list-item-switch {
+  flex: 0 0 131rpx;
+}
+
+.clearWrapper {
+  flex: 0 0 81rpx;
+  display: flex;
+  align-items: center;
+}
+
+.generCondition {
+  height: 301rpx;
+  align-items: initial;
+}
+
+.conditonWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.conditon-switch {
+  flex: 1;
+  min-width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.conditon-switch text {
+  padding-left: 29rpx;
+  min-width: 171rpx;
+}
+
+.condition-picker {
+  flex: 2;
+  min-width: 80%;
+}
+
+.condition-picker text {
+  padding-left: 29rpx;
+}
+
+.outtimePicker text {
+  padding-left: 29rpx;
+}
+
+.outtimePicker picker {
+  width: 100%;
+}
+
+.buttonContainer {
+  margin: 99rpx;
+}
+
+.buttonContainer.lastone {
+  padding-bottom: 99rpx;
+}

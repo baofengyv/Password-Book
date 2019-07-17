@@ -1,0 +1,17 @@
+page {
+  background-color: #0d0d0d;
+  height: 100%;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  /*临时使用*/
+  color: #eee;
+}
+
+.buttonContainer {
+  margin: 90rpx;
+}
+
+.textContainer {
+  text-align: center;
+  padding:47rpx 0 13rpx;
+  color: #FF5722;
+}
